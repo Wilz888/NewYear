@@ -6,7 +6,7 @@ import Countdown from "react-countdown";
 
 
 function App() {
-  const [newEfek, setEfek] = React.useState(["Wilson Christhoper", "Yang disakiti", "Yang Selalu Dipermainkan"]);
+  const [newEfek, setEfek] = React.useState(["Wilson Christhoper", "Yang disakiti", "Yang Selalu Dipermainkan :)"]);
   const [newYearMessage, setNewYearMessage] = React.useState([
     "Bye 2023! Hope 2024 Will Be Better for me :)"
   ]);
