@@ -6,14 +6,14 @@ import Countdown from "react-countdown";
 
 
 function App() {
-  const [newEfek, setEfek] = React.useState(["Wilson Christhoper"]);
+  const [newEfek, setEfek] = React.useState(["Wilson Christhoper", "Yang disakiti", "Yang Dipermainkan"]);
   const [newYearMessage, setNewYearMessage] = React.useState([
-    "Bye 2023! Hope 2024 Will Be Better🫂"
+    "Bye 2023! Hope 2024 Will Be Better for me :)"
   ]);
   const [newMessage, setNewMessage] = React.useState([
-    "Hello Kristy Veronica👋"
+    "Untuk diri sendiri aja deh"
   ]);
-  const [newGombalan, setNewGombalan] = React.useState(["Hope You Like It😁"]);
+  const [newGombalan, setNewGombalan] = React.useState(["Sakit rasanya 2023 ini tidak dihargai :)"]);
   const [newMundur, setMundur] = React.useState(["👇Countdown to 2024👇"]);
   
 
@@ -36,10 +36,10 @@ function App() {
       />
       <div className="flex flex-col justify-center items-center min-h-screen gap-5 font-bold">
         <div className="z-50 text-white font-bold text-4xl">
-          <Typewriter words={newMessage} cursorStyle={"_"} cursor />
+          <Typewriter words={newMessage} cursorStyle={"_"} />
         </div>
         <span className="text-white text-2xl font-bold z-50">
-          <Typewriter words={newGombalan} cursorStyle={"_"} cursor />
+          <Typewriter words={newGombalan} cursorStyle={"_"} />
         </span>
         <span className="text-white text-1xl font-bold px-10 z-50">
           <Typewriter
