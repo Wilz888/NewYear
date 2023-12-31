@@ -38,7 +38,7 @@ function App() {
         <span className="text-white text-2xl font-bold z-50">
           <Typewriter words={newGombalan} cursorStyle={"_"} cursor />
         </span>
-        <span className="text-white text-2xl font-bold px-10 z-50">
+        <span className="text-white text-1xl font-bold px-10 z-50">
           <Typewriter
             words={newYearMessage}
             loop={false}
