@@ -6,7 +6,7 @@ import Countdown from "react-countdown";
 
 function App() {
   const [newYearMessage, setNewYearMessage] = React.useState([
-    "Bye 2023! Hope 2024 Will Be Better",
+    "Bye 2023! Hope 2024 Will Be Better🫂",
   ]);
   const [newMessage, setNewMessage] = React.useState([
     "Hello Kristy Veronica👋",
