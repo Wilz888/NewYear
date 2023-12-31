@@ -1,18 +1,21 @@
 import Particles from "react-particles";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState} from "react";
 import { loadFireworksPreset } from "tsparticles-preset-fireworks";
 import { Typewriter } from "react-simple-typewriter";
 import Countdown from "react-countdown";
 
+
 function App() {
+  const [newEfek, setEfek] = React.useState(["Wilson Christhoper"]);
   const [newYearMessage, setNewYearMessage] = React.useState([
-    "Bye 2023! Hope 2024 Will Be Better🫂",
+    "Bye 2023! Hope 2024 Will Be Better🫂"
   ]);
   const [newMessage, setNewMessage] = React.useState([
-    "Hello Kristy Veronica👋",
+    "Hello Kristy Veronica👋"
   ]);
   const [newGombalan, setNewGombalan] = React.useState(["Hope You Like It😁"]);
   const [newMundur, setMundur] = React.useState(["👇Countdown to 2024👇"]);
+  
 
   const particlesInitialization = async (engine) => {
     await loadFireworksPreset(engine);
@@ -58,6 +61,15 @@ function App() {
               setNewYearMessage(["Happy", "New", "Year", "HNY 2024"])
             }
           />
+        </div>
+        <div className="z-50 text-white text-2xl">
+          <h1>
+            Developed By
+            <span style={{ color: "yellow", marginLeft: "8px" }}>
+              <Typewriter words={newEfek} loop={false} cursorStyle={"_"} cursor/>
+            </span>
+          </h1>
+              
         </div>
       </div>
     </>
